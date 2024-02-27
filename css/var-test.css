@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+
+}
+
+:root {
+    --color : white;
+    --font : 70px ;
+    --font-transform : capitalize;
+    --background : rgb(153, 163, 204);
+    --border-redius : 30px;
+    --margin-top : 70px;
+    --margin-bottom : 70px;
+    --text-align : center;
+}
+h1{
+color: var(--color);
+font-size: var(--font);
+text-transform: var(--font-transform);
+background: var(--background);
+border-radius: var(--border-redius);
+margin-top: var(--margin-top);
+margin-bottom: var(--margin-bottom);
+text-align: var(--text-align);
+}
+h2{
+color: var(--color);
+font-size: var(--font);
+text-transform: var(--font-transform);
+background: var(--background);
+border-radius: var(--border-redius);
+margin-top: var(--margin-top);
+margin-bottom: var(--margin-bottom);
+text-align: var(--text-align);
+}
+p{
+    color: var(--color);
+    font-size: var(--font);
+    text-transform: var(--font-transform);
+    background: var(--background);
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom);
+    border-radius: var(--border-redius);
+    text-align: var(--text-align);
+}
